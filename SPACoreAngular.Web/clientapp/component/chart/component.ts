@@ -22,7 +22,7 @@ export class ChartComponent {
         this.getChart();
     }
 
-    //Get All User
+    //Get All 
     getChart() {
 
         //debugger
