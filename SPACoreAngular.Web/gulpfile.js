@@ -34,7 +34,7 @@ gulp.task('copy-lib-js', function () {
     gulp.src('./node_modules/reflect-metadata/**/*.js')
         .pipe(gulp.dest(root_path.package_lib + 'reflect-metadata'));
 
-    gulp.src('./node_modules/rxjs/**.js')
+    gulp.src('./node_modules/rxjs/**/*.js')
         .pipe(gulp.dest(root_path.package_lib + 'rxjs'));
 
     gulp.src('./node_modules/angular-highcharts/**/*.js')
